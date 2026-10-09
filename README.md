@@ -1,20 +1,14 @@
 <!-- ============ 1. ENCABEZADO ============ -->
-<h1 align="center">Hola, soy Jou</h1>
 <p align="center">
-  Estudiante de Tecnologías de la Información e Innovación Digital
-</p>
-
-<p align="center">
-  <img src="banner.svg" width="100%">
+  <img src="bannerC++.svg" width="100%">
 </p>
 
 <!-- ============ 2. SOBRE MÍ ============ -->
 ## Sobre mí
 
-- 🎓 Estudiante en la Universidad Politécnica de Chiapas
 - 💻 Aprendiendo Java, C++, SQL y desarrollo de apps con Kotlin
 - 🌐 Construyendo mi blog personal y reforzando fundamentos web
-- 🎸 Me muevo entre el metal pesado y el código
+- 🎸 Me muevo entre la música y el código
 
 <!-- ============ 3. STACK (badges negros con logo rojo) ============ -->
 ## Stack
@@ -35,7 +29,7 @@
 
 | Proyecto | Descripción | Tecnología |
 |---|---|---|
-| [CRITLIGHT (backend)](https://github.com/mushyJosu/Backend-integrador-POO-v1) | Proyecto integrador: web enfocada al arte | Java |
+| [CRITLIGHT (backend)](https://github.com/mushyJosu/Backend-integrador-POO-v1) | Proyecto integrador Web enfocada al arte | Java |
 | [Libro al Día](https://github.com/mushyJosu/LibroralDia_ProyectoAppMoviles) | App móvil de utilería | Kotlin |
 | [Blog personal](https://github.com/mushyJosu/mushyJosuBlog.github.io) | Mi blog web | HTML |
 | [Prueba Z + analizador estadístico](https://github.com/mushyJosu/Prueba-Z-con-analizador-estadistico-IA) | Distribuciones de probabilidad y prueba de hipótesis | Python |
