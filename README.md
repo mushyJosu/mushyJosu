@@ -4,9 +4,8 @@
   Estudiante de Tecnologías de la Información e Innovación Digital
 </p>
 
-<!-- Línea separadora simple: una imagen de 1px de alto en rojo oscuro -->
 <p align="center">
-  <img src="https://img.shields.io/badge/-%20-8b0000?style=flat-square&labelColor=8b0000" width="120" height="3">
+  <img src="banner.svg" width="100%">
 </p>
 
 <!-- ============ 2. SOBRE MÍ ============ -->
