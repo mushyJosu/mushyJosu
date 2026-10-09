@@ -25,7 +25,7 @@
   <img src="https://img.shields.io/badge/C++-000000?style=for-the-badge&logo=cplusplus&logoColor=cc0000">
   <img src="https://img.shields.io/badge/Kotlin-000000?style=for-the-badge&logo=kotlin&logoColor=cc0000">
   <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=cc0000">
-  <img src="https://img.shields.io/badge/SQL-000000?style=for-the-badge&logo=mysql&logoColor=cc0000">
+  <img src="https://img.shields.io/badge/SQL-000000?style=for-the-badge&logo=sqlite&logoColor=cc0000">
   <img src="https://img.shields.io/badge/HTML-000000?style=for-the-badge&logo=html5&logoColor=cc0000">
   <img src="https://img.shields.io/badge/CSS-000000?style=for-the-badge&logo=css3&logoColor=cc0000">
   <img src="https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=cc0000">
