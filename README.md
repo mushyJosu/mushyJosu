@@ -37,9 +37,9 @@
 <!-- ============ 5. ESTADÍSTICAS (colores en la URL) ============ -->
 ## Estadísticas
 
-<p align="left">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=mushyJosu&show_icons=true&bg_color=000000&title_color=ffffff&text_color=cfcfcf&icon_color=cc0000&border_color=ffffff&border_radius=0" alt="Estadísticas de GitHub" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mushyJosu&layout=compact&bg_color=000000&title_color=ffffff&text_color=cfcfcf&border_color=ffffff&border_radius=0" alt="Lenguajes más usados" />
+<p>
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=mushyJosu&show_icons=true&bg_color=000000&title_color=ffffff&text_color=cfcfcf&icon_color=cc0000&border_color=ffffff&border_radius=0">
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mushyJosu&layout=compact&bg_color=000000&title_color=ffffff&text_color=cfcfcf&border_color=ffffff&border_radius=0">
 </p>
 
 <!-- ============ 6. CONTACTO ============ -->
