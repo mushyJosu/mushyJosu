@@ -1,1 +1,33 @@
+name: Actualizar estadísticas
 
+# 1. CUÁNDO corre: todos los días a las 6:00 UTC y también a mano (botón "Run workflow")
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+# 2. PERMISOS: necesita poder escribir en tu repo para guardar los SVG
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      # 3. Descarga una copia de tu repo en la máquina de GitHub
+      - uses: actions/checkout@v4
+
+      # 4. Ejecuta el script que dibuja las tarjetas
+      - name: Generar tarjetas
+        run: python3 generate_stats.py
+        env:
+          GH_USER: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 5. Si los SVG cambiaron, los guarda en el repo (commit)
+      - name: Guardar cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add stats.svg langs.svg
+          git diff --staged --quiet || (git commit -m "Actualizar estadísticas" && git push)
